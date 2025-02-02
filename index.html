@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
+    <title>Navbar</title>
     <style>
       body{
         text-align: center;
@@ -31,9 +31,40 @@
       a:hover,a:visited,a:link{
         color: black;
       }
+  
+     /*feature-nav-alvaro-->*/
+        nav:first-of-type {
+            background: #333;
+            padding: 10px;
+        }
+        nav:first-of-type ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav:first-of-type ul li {
+            margin: 0 15px;
+        }
+        nav:first-of-type ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav:first-of-type ul li a:hover {
+            text-decoration: underline;
+        }
     </style>
-  </head>
-  <body>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="https://markdown.es">Markdown</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
+            <li><a href="https://github.com/AlvaroMP01" target="_blank">GitHub</a></li>
+        </ul>
+
     <h1>Más sobre mi:</h1>
     <nav>
       <ul>
@@ -41,6 +72,7 @@
         <li><a href="https://www.youtube.com/@gamebossmai2466">Mi canal de youtube</a></li>
         <li><a href="https://www.instagram.com/ivann_balderass/">Mi instagram</a></li>
       </ul>
+
     </nav>
   </body>
 </html>
