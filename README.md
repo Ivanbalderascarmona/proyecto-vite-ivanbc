@@ -52,3 +52,5 @@
     *   Realizar al menos 2 commits significativos
         
         ![Foto9](./images/foto9.png)
+
+        ![Foto10](./images/foto10.png)
