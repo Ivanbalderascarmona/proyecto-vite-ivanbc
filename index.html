@@ -4,30 +4,54 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
     <title>Navbar</title>
     <style>
-        nav {
+      body{
+        text-align: center;
+      }
+      nav{
+        margin: 30px 20%;
+      }
+      ul,li{
+        list-style: none;
+      }
+      li{
+        display: inline-block;
+        margin-right: 20px;
+        border-radius: 15px;
+        background-color: aquamarine;
+        padding: 10px;
+      }
+      li:hover{
+        box-shadow: 10px -10px 40px gray, -10px 10px 40px gray ;
+      }
+      a{
+        text-decoration: none;
+      }
+      a:hover,a:visited,a:link{
+        color: black;
+      }
+  
+     /*feature-nav-alvaro-->*/
+        nav:first-of-type {
             background: #333;
             padding: 10px;
         }
-        nav ul {
+        nav:first-of-type ul {
             list-style: none;
             margin: 0;
             padding: 0;
             display: flex;
         }
-        nav ul li {
+        nav:first-of-type ul li {
             margin: 0 15px;
         }
-        nav ul li a {
+        nav:first-of-type ul li a {
             color: white;
             text-decoration: none;
             font-size: 18px;
         }
-        nav ul li a:hover {
+        nav:first-of-type ul li a:hover {
             text-decoration: underline;
         }
     </style>
@@ -40,6 +64,15 @@
             <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
             <li><a href="https://github.com/AlvaroMP01" target="_blank">GitHub</a></li>
         </ul>
+
+    <h1>Más sobre mi:</h1>
+    <nav>
+      <ul>
+        <li><a href="https://github.com/Ivanbalderascarmona/proyecto-vite-ivanbc">Mi Github</a></li>
+        <li><a href="https://www.youtube.com/@gamebossmai2466">Mi canal de youtube</a></li>
+        <li><a href="https://www.instagram.com/ivann_balderass/">Mi instagram</a></li>
+      </ul>
+
     </nav>
   </body>
 </html>
