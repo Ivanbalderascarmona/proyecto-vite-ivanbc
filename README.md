@@ -145,3 +145,26 @@
 3.  Realizar un push final a GitHub
 
     ![Foto25](./images/foto25.png)
+
+## Historial de Commits
+
+1. Rama main
+
+    ![Foto26](./images/foto26.png)
+
+2.  Rama dessarrollo
+
+    ![Foto27](./images/foto27.png)
+
+3. Rama feature-ui
+
+    ![Foto28](./images/foto28.png)
+
+## Árbol de commits final
+
+
+'''bash
+ git log --graph --oneline --all
+'''
+
+![Foto29](./images/foto29.png)
