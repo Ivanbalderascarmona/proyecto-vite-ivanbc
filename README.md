@@ -168,3 +168,34 @@
 '''
 
 ![Foto29](./images/foto29.png)
+
+## Diagrama de flujo del trabajo
+
+graph LR
+    A[Inicio] --> B{Parte 1: Configuración Inicial};
+    B --> C{Crear repositorio en GitHub};
+    C --> D{Crear directorio local};
+    D --> E{Inicializar proyecto con Vite};
+    E --> F{Inicializar Git y primer commit};
+    F --> G{Conectar repositorio local con GitHub};
+    G --> H{Parte 2: Trabajo con Ramas};
+    H --> I{Crear ramas "desarrollo" y "feature-ui"};
+    I --> J{Trabajar en rama "feature-ui" (Colaborador)};
+    J --> K{Modificar componente principal y commits};
+    K --> L{Trabajar en rama "desarrollo" (Propietario)};
+    L --> M{Añadir componente y commits};
+    M --> N{Parte 3: Colaboración};
+    N --> O{Propietario añade colaboradores};
+    O --> P{Colaborador acepta invitación y clona repositorio};
+    P --> Q{Colaborador crea rama "feature-nav"};
+    Q --> R{Colaborador realiza modificaciones y commits};
+    R --> S{Colaborador sube rama y crea Pull Request};
+    S --> T{Propietario revisa Pull Request};
+    T --> U{Propietario propone cambios (si es necesario)};
+    U --> V{Propietario solicita cambios o aprueba};
+    V --> W{Propietario realiza merge};
+    W --> X{Parte 4: Integración Final};
+    X --> Y{Merge de "desarrollo" a "main"};
+    Y --> Z{Resolver conflictos (si los hay)};
+    Z --> AA{Push final a GitHub};
+    AA --> AB[Fin];
